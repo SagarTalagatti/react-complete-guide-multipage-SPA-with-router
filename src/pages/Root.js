@@ -7,7 +7,7 @@ function RootLayout() {
     <>
       <MainNavigation />
       <main>
-        <Outlet />
+        <Outlet /> {/* Outlet component marks the place where the child routes should be rendered. */}
       </main>
     </>
   );
